@@ -1,15 +1,18 @@
 import React from 'react'
+import {Title, SubTitle} from './styled'
+
+import BackImage from '../assets/images/BackImage.png'
 
 class Header extends React.Component {
     render() {
         return (
-            <section id="header">
+            <section id="header" style={{ backgroundImage: `url(${BackImage})`, backgroundRepeat: 'space',   backgroundSize: 'cover' }}>
                 <div className="inner">
-                    <span className="icon major fa-cloud"></span>
-                    <h1>Hi, I'm <strong>Photon</strong>, another fine<br />
-                    little freebie from <a href="http://html5up.net">HTML5 UP</a>.</h1>
-                    <p>Accumsan feugiat mi commodo erat lorem ipsum, sed magna<br />
-                    lobortis feugiat sapien sed etiam volutpat accumsan.</p>
+                    {/* TODO put on the my icon here */}
+                    {/*<span className="icon major fa-cloud"></span>*/}
+                    <Title>Hi, I'm <strong>Kazuya Takahashi</strong></Title>
+                    <SubTitle>Back-End Engineer/
+                        Mobile Engineer</SubTitle>
                     <ul className="actions">
                         <li><a href="#one" className="button scrolly">Discover</a></li>
                     </ul>
