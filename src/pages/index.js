@@ -10,6 +10,10 @@ import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import springIcon from '../assets/images/springio-ar21.svg'
 
+// skill badge
+import devicon from 'devicon/devicon.css'
+import deviconColors from 'devicon/devicon-colors.css'
+
 class Homepage extends React.Component {
     render() {
         const siteTitle = "Kazuya Takahashi - my portfolio";
@@ -37,7 +41,7 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <ul className="major-icons">
-                                <li><i className="devicon-java-plain-wordmark colored"></i></li>
+                                <li><SkillBadge><i className="devicon-java-plain-wordmark colored"></i></SkillBadge></li>
                                 <li><SkillBadge className="devicon-swift-plain-wordmark colored"></SkillBadge></li>
                                 <li><SkillBadge className="devicon-javascript-plain colored"></SkillBadge></li>
                                 <li><img src={springIcon} width={64} height={48}/></li>
