@@ -1,11 +1,22 @@
 import styled from 'styled-components'
-import WebFont from 'webfontloader'
+// import WebFont from 'webfontloader'
+//
+// WebFont.load({
+//   google:{
+//     families:['VT323','monospace']
+//   }
+// });
+// ;
 
-WebFont.load({
-  google:{
-    families:['VT323','monospace']
-  }
-});
+// This will make sure WebFont.load is only used in the browser.
+if (typeof window !== 'undefined') {
+  let WebFont = require('webfontloader')
+  WebFont.load({
+    google: {
+      families: ['VT323', 'monospace'],
+    },
+  })
+}
 
 export const Title = styled.h1`
 	//TODO: To add animation

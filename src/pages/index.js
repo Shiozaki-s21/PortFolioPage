@@ -37,7 +37,7 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <ul className="major-icons">
-                                <li><SkillBadge><i className="devicon-java-plain-wordmark colored"></i></SkillBadge></li>
+                                <li><i className="devicon-java-plain-wordmark colored"></i></li>
                                 <li><SkillBadge className="devicon-swift-plain-wordmark colored"></SkillBadge></li>
                                 <li><SkillBadge className="devicon-javascript-plain colored"></SkillBadge></li>
                                 <li><img src={springIcon} width={64} height={48}/></li>
