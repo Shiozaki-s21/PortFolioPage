@@ -6,7 +6,6 @@ import Layout from '../components/layout';
 import {SkillBadge} from '../components/styled'
 
 import springIcon from '../assets/images/springio-ar21.svg'
-import locatterImage from '../assets/images/LocatterImage.png'
 import javaIcon from '../assets/images/java.svg'
 import javaScripticon from '../assets/images/javaScript.svg'
 import cIcon from '../assets/images/C.svg'
@@ -31,9 +30,11 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>About Me</h2>
                             </header>
-                            {/*TODO: To replace here*/}
-                            <p>I'm Back-end Engineer worked in Japan and studying and living in Vancouver right now</p>
-                            <p></p>
+                            <p><b>Back-End Engineer</b>r</p>
+                            <p>I studied about Programing in Fukuoka Institute University and graduated it.</p>
+                            <p>After that. I started working in a junior position for 3 years.</p>
+                            <p>Now, I'm in Vancouver for studying to develop mobile apps.</p>
+                            <p>Especially I'm interested in iOS developing.</p>
                         </div>
                     </div>
                 </section>
@@ -57,8 +58,9 @@ class Homepage extends React.Component {
                         <div className="col-6">
                             <header className="major">
                                 <h2>My Skills</h2>
-                                <p>I have been a professional back-end developer for almost 3 years.</p>
-                                <p>And now, I study Mobile development in collage and front-end development by my self.</p>
+                                <p> - I'm good at Java + Spring FW.</p>
+                                <p> - iOS is better than Android. </p>
+                                <p> - In mobile development, I'm good at GPS things and Firebase</p>
                             </header>
                             {/*TODO:Write description about my own skills */}
                             {/*<p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>*/}
@@ -78,7 +80,8 @@ class Homepage extends React.Component {
                             <div className="col-4">
                                 <span className="image"><img src={"https://flycricket-screenshots.s3.amazonaws.com/4996c0a108de41fbad2c80dd2f6e8418/medium/fdfa8545-1305-447a-8bec-de376bebc035"} alt="Top Page" height={200} width={150} /></span>
                                 <h3> Locatter </h3>
-                                <p>This is the new style SNS!.</p>
+                                <p>This is the new style SNS.</p>
+                                <p>Applying now, coming soon!.</p>
                                 <ul className="actions">
                                     <li><a href=" https://locatter-0.flycricket.io/?t=1567020499" className="button">More</a></li>
                                 </ul>
