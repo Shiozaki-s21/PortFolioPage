@@ -13,7 +13,7 @@ import mySqlIcon from '../assets/images/mysql.svg'
 import swiftIocn from '../assets/images/swift.svg'
 import reactIcon from '../assets/images/react.svg'
 import androidIcon from '../assets/images/android.svg'
-import gitHubIcon from '../assets/images/github-original.svg'
+import gitHubIcon from '../assets/images/github-original.png'
 
 class Homepage extends React.Component {
     render() {
