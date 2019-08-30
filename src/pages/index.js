@@ -9,6 +9,7 @@ import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import springIcon from '../assets/images/springio-ar21.svg'
+import locatetrImage from '../assets/images/LocatterImage.png'
 
 // skill badge
 import devicon from 'devicon/devicon.css'
@@ -41,7 +42,7 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <ul className="major-icons">
-                                <li><SkillBadge><i className="devicon-java-plain-wordmark colored"></i>i></SkillBadge></li>
+                                <li><SkillBadge><i className="devicon-java-plain-wordmark colored"></i></SkillBadge></li>
                                 <li><SkillBadge className="devicon-swift-plain-wordmark colored"></SkillBadge></li>
                                 <li><SkillBadge className="devicon-javascript-plain colored"></SkillBadge></li>
                                 <li><img src={springIcon} width={64} height={48}/></li>
@@ -70,14 +71,14 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
-                                <h2>My Product</h2>
+                                <h2>My Products</h2>
                             </header>
                             <div className="col-4">
-                                <span className="image fit"><img src={pic02} alt="" /></span>
+                                <span className="image fit"><img src={locatetrImage} alt="" /></span>
                                 <h3> Locatter </h3>
-                                <p>This is the new style app!.</p>
+                                <p>This is the new style SNS!.</p>
                                 <ul className="actions">
-                                    <li><a href="#" className="button">More</a></li>
+                                    <li><a href=" https://locatter-0.flycricket.io/?t=1567020499" className="button">More</a></li>
                                 </ul>
                             </div>
                         </div>
