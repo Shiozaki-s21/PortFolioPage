@@ -55,6 +55,7 @@ class Homepage extends React.Component {
                                 <li><img src={androidIcon} width={64} height={64}/></li>
                                 <li><img src={cIcon} width={64} height={64}/></li>
                                 <li><img src={mySqlIcon} width={64} height={64}/></li>
+                                <li><img src={reactIcon} width={64} height={64}/></li>
                             </ul>
                         </div>
                         <div className="col-6">
