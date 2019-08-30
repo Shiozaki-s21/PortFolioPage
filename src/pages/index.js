@@ -72,25 +72,24 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>My Product</h2>
                             </header>
-                            {/*<p>Working on it now, Coming soon</p>*/}
                             <div className="col-4">
                                 <span className="image fit"><img src={pic02} alt="" /></span>
-                                <h3>Magna feugiat lorem</h3>
-                                <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                                <h3> Locatter </h3>
+                                <p>This is the new style app!.</p>
                                 <ul className="actions">
                                     <li><a href="#" className="button">More</a></li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div className="col-4">
-                            <span className="image fit"><img src={pic02} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-                            <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
-                            </ul>
-                        </div>
+                        {/*<div className="col-4">*/}
+                        {/*    <span className="image fit"><img src={pic02} alt="" /></span>*/}
+                        {/*    <h3>Magna feugiat lorem</h3>*/}
+                        {/*    <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>*/}
+                        {/*    <ul className="actions">*/}
+                        {/*        <li><a href="#" className="button">More</a></li>*/}
+                        {/*    </ul>*/}
+                        {/*</div>*/}
                         {/*<div className="col-4">*/}
                         {/*    <span className="image fit"><img src={pic03} alt="" /></span>*/}
                         {/*    <h3>Magna feugiat lorem</h3>*/}
