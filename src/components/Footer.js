@@ -11,10 +11,10 @@ class Footer extends React.Component {
             <section id="footer">
                 <ul className="icons">
                     {/*link icons*/}
-                    <li><a href="https://www.facebook.com/profile.php?id=100027270064972"><img src={facebook} height={10} width={10}/></a></li>
-                    <li><a href="https://github.com/Shiozaki-s21"><img src={gituhb} height={10} width={10} /></a></li>
-                    <li><a href="https://www.linkedin.com/in/takahashi-kazuya-520347164/"><img src={linkedin} height={10} width={10} /></a></li>
-                    <li><a href="https://medium.com/@KazuYaTaka" ><img src={medium} height={10} width={10} /></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100027270064972"><img src={facebook} height={20} width={20}/></a></li>
+                    <li><a href="https://github.com/Shiozaki-s21"><img src={gituhb} height={20} width={20} /></a></li>
+                    <li><a href="https://www.linkedin.com/in/takahashi-kazuya-520347164/"><img src={linkedin} height={20} width={20} /></a></li>
+                    <li><a href="https://medium.com/@KazuYaTaka" ><img src={medium} height={20} width={20} /></a></li>
                 </ul>
                 <ul className="copyright">
                     <li>&copy; 2019 Kazuya Takahashi</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
