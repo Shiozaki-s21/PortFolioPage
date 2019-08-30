@@ -8,6 +8,13 @@ import {SkillBadge} from '../components/styled'
 import springIcon from '../assets/images/springio-ar21.svg'
 import locatterImage from '../assets/images/LocatterImage.png'
 import javaIcon from '../assets/images/java.svg'
+import javaScripticon from '../assets/images/javaScript.svg'
+import cIcon from '../assets/images/C.svg'
+import mySqlIcon from '../assets/images/mysql.svg'
+import swiftIocn from '../assets/images/swift.svg'
+import reactIcon from '../assets/images/react.svg'
+import androidIcon from '../assets/images/android.svg'
+import gitHubIcon from '../assets/images/github-original.svg'
 
 // skill badge
 import devicon from 'devicon/devicon.css'
@@ -41,13 +48,13 @@ class Homepage extends React.Component {
                         <div className="col-6">
                             <ul className="major-icons">
                                 <li><SkillBadge><img src={javaIcon} width={64} height={64}/></SkillBadge></li>
-                                <li><SkillBadge className="devicon-swift-plain-wordmark colored"></SkillBadge></li>
-                                <li><SkillBadge className="devicon-javascript-plain colored"></SkillBadge></li>
-                                <li><img src={springIcon} width={64} height={48}/></li>
-                                <li><SkillBadge className="devicon-c-plain-wordmark colored"></SkillBadge></li>
-                                <li><SkillBadge className="devicon-mysql-plain-wordmark colored"></SkillBadge></li>
-                                <li><SkillBadge className="devicon-android-plain-wordmark colored"></SkillBadge></li>
-                                <li><SkillBadge className="devicon-react-original-wordmark colored"></SkillBadge></li>
+                                <li><img src={swiftIocn} width={64} height={64}/></li>
+                                <li><img src={javaScripticon} width={64} height={64}/></li>
+                                <li><img src={springIcon} width={64} height={64}/></li>
+                                <li><img src={gitHubIcon} width={64} height={64}/></li>
+                                <li><img src={androidIcon} width={64} height={64}/></li>
+                                <li><img src={cIcon} width={64} height={64}/></li>
+                                <li><img src={mySqlIcon} width={64} height={64}/></li>
                             </ul>
                         </div>
                         <div className="col-6">
