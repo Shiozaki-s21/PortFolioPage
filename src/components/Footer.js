@@ -1,12 +1,17 @@
 import React from 'react'
 
+import gituhb from '../assets/images/github.png'
+import facebook from '../assets/images/facebook.png'
+import linkedin from '../assets/images/linkedin.png'
+import medium from '../assets/images/medium.png'
+
 class Footer extends React.Component {
     render() {
         return (
             <section id="footer">
                 <ul className="icons">
                     {/*link icons*/}
-                    <li><a href="https://www.facebook.com/profile.php?id=100027270064972" className="fa-facebook-official"><span className="label">Facebook</span></a></li>
+                  <li><img src={facebook}><img href="https://www.facebook.com/profile.php?id=100027270064972"></img><span className="label">Facebook</span></a></li>
                     <li><a href="https://github.com/Shiozaki-s21" className="icon alt fa-github"><span className="label">GitHub</span></a></li>
                     <li><a href="https://www.linkedin.com/in/takahashi-kazuya-520347164/" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
                     <li><a href="https://medium.com/@KazuYaTaka" className="icon alt fa-medium"><span className="label">Medium</span></a></li>
