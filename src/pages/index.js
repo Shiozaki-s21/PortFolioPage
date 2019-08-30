@@ -16,10 +16,6 @@ import reactIcon from '../assets/images/react.svg'
 import androidIcon from '../assets/images/android.svg'
 import gitHubIcon from '../assets/images/github-original.svg'
 
-// skill badge
-import devicon from 'devicon/devicon.css'
-import deviconColors from 'devicon/devicon-colors.css'
-
 class Homepage extends React.Component {
     render() {
         const siteTitle = "Kazuya Takahashi - my portfolio";
@@ -80,7 +76,7 @@ class Homepage extends React.Component {
                                 <h2>My Products</h2>
                             </header>
                             <div className="col-4">
-                                <span className="image fit"><img src={locatterImage} alt="" /></span>
+                                <span className="image fit"><img src={locatterImage} width={200} height={200} alt="Top Page" /></span>
                                 <h3> Locatter </h3>
                                 <p>This is the new style SNS!.</p>
                                 <ul className="actions">
