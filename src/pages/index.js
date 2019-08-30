@@ -41,7 +41,7 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <ul className="major-icons">
-                                <li><SkillBadge><i className="devicon-java-plain-wordmark colored"></i></SkillBadge></li>
+                                <li><SkillBadge><i className="devicon-java-plain-wordmark colored"></i>i></SkillBadge></li>
                                 <li><SkillBadge className="devicon-swift-plain-wordmark colored"></SkillBadge></li>
                                 <li><SkillBadge className="devicon-javascript-plain colored"></SkillBadge></li>
                                 <li><img src={springIcon} width={64} height={48}/></li>
@@ -72,17 +72,25 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>My Product</h2>
                             </header>
-                            <p>Working on it now, Coming soon</p>
+                            {/*<p>Working on it now, Coming soon</p>*/}
+                            <div className="col-4">
+                                <span className="image fit"><img src={pic02} alt="" /></span>
+                                <h3>Magna feugiat lorem</h3>
+                                <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                                <ul className="actions">
+                                    <li><a href="#" className="button">More</a></li>
+                                </ul>
+                            </div>
                         </div>
 
-                        {/*<div className="col-4">*/}
-                        {/*    <span className="image fit"><img src={pic02} alt="" /></span>*/}
-                        {/*    <h3>Magna feugiat lorem</h3>*/}
-                        {/*    <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>*/}
-                        {/*    <ul className="actions">*/}
-                        {/*        <li><a href="#" className="button">More</a></li>*/}
-                        {/*    </ul>*/}
-                        {/*</div>*/}
+                        <div className="col-4">
+                            <span className="image fit"><img src={pic02} alt="" /></span>
+                            <h3>Magna feugiat lorem</h3>
+                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <ul className="actions">
+                                <li><a href="#" className="button">More</a></li>
+                            </ul>
+                        </div>
                         {/*<div className="col-4">*/}
                         {/*    <span className="image fit"><img src={pic03} alt="" /></span>*/}
                         {/*    <h3>Magna feugiat lorem</h3>*/}
