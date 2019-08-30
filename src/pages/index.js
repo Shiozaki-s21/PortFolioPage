@@ -9,7 +9,7 @@ import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import springIcon from '../assets/images/springio-ar21.svg'
-import locatetrImage from '../assets/images/LocatterImage.png'
+import locatterImage from '../assets/images/LocatterImage.png'
 
 // skill badge
 import devicon from 'devicon/devicon.css'
@@ -74,7 +74,7 @@ class Homepage extends React.Component {
                                 <h2>My Products</h2>
                             </header>
                             <div className="col-4">
-                                <span className="image fit"><img src={locatetrImage} alt="" /></span>
+                                <span className="image fit"><img src={locatterImage} alt="" /></span>
                                 <h3> Locatter </h3>
                                 <p>This is the new style SNS!.</p>
                                 <ul className="actions">
