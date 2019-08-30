@@ -76,7 +76,7 @@ class Homepage extends React.Component {
                                 <h2>My Products</h2>
                             </header>
                             <div className="col-4">
-                                <span className="image fit"><img src={"https://flycricket-screenshots.s3.amazonaws.com/4996c0a108de41fbad2c80dd2f6e8418/medium/fdfa8545-1305-447a-8bec-de376bebc035"} alt="Top Page" height={600} width={300} /></span>
+                                <span className="image fit"><img src={"https://flycricket-screenshots.s3.amazonaws.com/4996c0a108de41fbad2c80dd2f6e8418/medium/fdfa8545-1305-447a-8bec-de376bebc035"} alt="Top Page" height={200} width={100} /></span>
                                 <h3> Locatter </h3>
                                 <p>This is the new style SNS!.</p>
                                 <ul className="actions">
