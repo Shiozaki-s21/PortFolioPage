@@ -30,9 +30,9 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>About Me</h2>
                             </header>
-                            <p><b>Back-End Engineer</b>r</p>
                             <p>I studied about Programing in Fukuoka Institute University and graduated it.</p>
                             <p>After that. I started working in a junior position for 3 years.</p>
+                            <p>Generally, I was working on IoT project and EC site project, financial site project.</p>
                             <p>Now, I'm in Vancouver for studying to develop mobile apps.</p>
                             <p>Especially I'm interested in iOS developing.</p>
                         </div>

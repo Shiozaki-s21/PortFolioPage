@@ -14,7 +14,7 @@ class Header extends React.Component {
                     <SubTitle>Back-End Engineer/
                         Mobile Engineer</SubTitle>
                     <ul className="actions">
-                        <li><a href="#one" className="button scrolly">Discover</a></li>
+                        <li><a href="#one" className="button scroll">Discover</a></li>
                     </ul>
                 </div>
             </section>
