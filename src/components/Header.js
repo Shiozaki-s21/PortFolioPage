@@ -8,8 +8,6 @@ class Header extends React.Component {
         return (
             <section id="header" style={{ backgroundImage: `url(${BackImage})`, backgroundRepeat: 'space',   backgroundSize: 'cover' }}>
                 <div className="inner">
-                    {/* TODO put on the my icon here */}
-                    {/*<span className="icon major fa-cloud"></span>*/}
                     <Title>Hi, I'm <strong>Kazuya Takahashi</strong></Title>
                     <SubTitle>Back-End Engineer/
                         Mobile Engineer</SubTitle>

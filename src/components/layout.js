@@ -4,6 +4,7 @@ import "../assets/scss/main.scss";
 import Header from "./Header";
 import Footer from "./Footer";
 
+
 class Template extends React.Component {
     constructor(props) {
       super(props);

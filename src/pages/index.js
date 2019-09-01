@@ -88,31 +88,6 @@ class Homepage extends React.Component {
                                 </ul>
                             </div>
                         </div>
-
-                        {/*<div className="col-4">*/}
-                        {/*    <span className="image fit"><img src={pic02} alt="" /></span>*/}
-                        {/*    <h3>Magna feugiat lorem</h3>*/}
-                        {/*    <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>*/}
-                        {/*    <ul className="actions">*/}
-                        {/*        <li><a href="#" className="button">More</a></li>*/}
-                        {/*    </ul>*/}
-                        {/*</div>*/}
-                        {/*<div className="col-4">*/}
-                        {/*    <span className="image fit"><img src={pic03} alt="" /></span>*/}
-                        {/*    <h3>Magna feugiat lorem</h3>*/}
-                        {/*    <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>*/}
-                        {/*    <ul className="actions">*/}
-                        {/*        <li><a href="#" className="button">More</a></li>*/}
-                        {/*    </ul>*/}
-                        {/*</div>*/}
-                        {/*<div className="col-4">*/}
-                        {/*    <span className="image fit"><img src={pic04} alt="" /></span>*/}
-                        {/*    <h3>Magna feugiat lorem</h3>*/}
-                        {/*    <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>*/}
-                        {/*    <ul className="actions">*/}
-                        {/*        <li><a href="#" className="button">More</a></li>*/}
-                        {/*    </ul>*/}
-                        {/*</div>*/}
                     </div>
                 </section>
             </Layout>
