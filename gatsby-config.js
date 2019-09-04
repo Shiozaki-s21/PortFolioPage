@@ -5,6 +5,14 @@ module.exports = {
     description: "A Gatsby.js Starter based on Photon by HTML5 UP"
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['VT323', 'monospace'],
+        }
+      }
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,

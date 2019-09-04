@@ -30,11 +30,11 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>About Me</h2>
                             </header>
-                            <p>I studied about Programing in Fukuoka Institute University and graduated it.</p>
-                            <p>After that. I started working in a junior position for 3 years.</p>
-                            <p>Generally, I was working on IoT project and EC site project, financial site project.</p>
-                            <p>Now, I'm in Vancouver for studying to develop mobile apps.</p>
-                            <p>Especially I'm interested in iOS developing.</p>
+                            <p>I studied Programming at the Fukuoka Institute of Technology and graduated with a bachelor’s degree in Information Technology in 2014.</p>
+                            <p>I began my career by working at a System Integration organization as a backend developer for 3 years. </p>
+                            <p>I specialized in creating and implementing blueprints as well as writing programs for IoT, EC site, and financial site projects. </p>
+                            <p>I have lived in Vancouver, Canada since 2018, moving here in order to continue studying and developing mobile apps. </p>
+                            <p>I am especially interested in developing mobile apps for iOS.</p>
                         </div>
                     </div>
                 </section>

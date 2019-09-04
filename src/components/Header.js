@@ -1,23 +1,22 @@
 import React from 'react'
-import {Title, SubTitle} from './styled'
-
+import { Title, SubTitle, MountColor } from './styled'
 import BackImage from '../assets/images/BackImage.png'
 
 class Header extends React.Component {
-    render() {
-        return (
-            <section id="header" style={{ backgroundImage: `url(${BackImage})`, backgroundRepeat: 'space',   backgroundSize: 'cover' }}>
-                <div className="inner">
-                    <Title>Hi, I'm <strong>Kazuya Takahashi</strong></Title>
-                    <SubTitle>Back-End Engineer/
-                        Mobile Engineer</SubTitle>
-                    <ul className="actions">
-                        <li><a href="#one" className="button scroll">Discover</a></li>
-                    </ul>
-                </div>
-            </section>
-        )
-    }
+  render() {
+    return (
+      <section id="header" style={{
+        backgroundImage: `url(${BackImage})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        backgroundAttachment: 'scroll',
+      }}>
+        <Title><span style={{ backgroundColor: ' rgba(120, 120,120, 0.7)' }}> Hi, I'm <strong>Kazuya Takahashi</strong></span></Title>
+        <SubTitle><span style={{ backgroundColor: ' rgba(120, 120,120, 0.7)' }}><strong><MountColor>Back-End/
+          Mobile Engineer</MountColor></strong></span></SubTitle>
+      </section>
+    )
+  }
 }
 
 export default Header
