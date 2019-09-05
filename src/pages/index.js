@@ -59,9 +59,11 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>My Skills</h2>
                             </header>
-                                <p> - I'm good at Java + Spring FW.</p>
-                                <p> - iOS is better than Android. </p>
-                                <p> - In mobile development, I'm good at GPS things and Firebase</p>
+                                <p> - Java + MySQL + Spring FW.</p>
+                                <p> - iOS + Swift . </p>
+                                <p> - Android + Java</p>
+                                <p> - GPS related functions</p>
+                                <p> - Firebase </p>
 
                             {/*TODO:Write description about my own skills */}
                             {/*<p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>*/}
