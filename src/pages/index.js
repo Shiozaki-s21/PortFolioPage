@@ -7,13 +7,14 @@ import {SkillBadge} from '../components/styled'
 
 import springIcon from '../assets/images/springio-ar21.svg'
 import javaIcon from '../assets/images/java.svg'
-import javaScripticon from '../assets/images/javaScript.svg'
+import javaScript from '../assets/images/javaScript.svg'
 import cIcon from '../assets/images/C.svg'
 import mySqlIcon from '../assets/images/mysql.svg'
 import swiftIocn from '../assets/images/swift.svg'
 import reactIcon from '../assets/images/react.svg'
 import androidIcon from '../assets/images/android.svg'
 import gitHubIcon from '../assets/images/github-original.png'
+import setADayTop from '../assets/images/Set_A_Day_Top.png'
 
 class Homepage extends React.Component {
     render() {
@@ -46,7 +47,7 @@ class Homepage extends React.Component {
                             <ul className="major-icons">
                                 <li><SkillBadge><img src={javaIcon} width={64} height={64}/></SkillBadge></li>
                                 <li><img src={swiftIocn} width={64} height={64}/></li>
-                                <li><img src={javaScripticon} width={64} height={64}/></li>
+                                <li><img src={javaScript} width={64} height={64}/></li>
                                 <li><img src={springIcon} width={64} height={64}/></li>
                                 <li><img src={gitHubIcon} width={64} height={64}/></li>
                                 <li><img src={androidIcon} width={64} height={64}/></li>
@@ -87,6 +88,15 @@ class Homepage extends React.Component {
                                 <p>Applying now, coming soon!.</p>
                                 <ul className="actions">
                                     <li><a href=" https://locatter-0.flycricket.io/?t=1567020499" className="button">More</a></li>
+                                </ul>
+                            </div>
+                            <div className="col-4">
+                                <span className="image"><img src={setADayTop} alt="Top Page" height={150} width={300} /></span>
+                                <h3> Set A Day </h3>
+                                <p>Web App for setting schedule.</p>
+                                <p>It's useful and free!</p>
+                                <ul className="actions">
+                                    <li><a href="https://setaday.web.app" className="button">More</a></li>
                                 </ul>
                             </div>
                         </div>
